@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0
+
+}
+
+
+body {
+  
+  width: 100vw;
+  height: 100vh;
+  margin:0;
+  display: flex;
+  justify-content : center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    -webkit-app-region: drag;
+    user-select : none;
+}
+
+.app {
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+padding:20px;
+border-radius: 20px;
+text-align: center;
+border: 2px solid rgba(255,255,255,0.5);
+}
+h1,#month,#day-name,#day-number 
+    {
+        font-family: 'Pixeboy', 'SEGOE UI', sans-serif;
+        color: #ff85a1;
+        text-shadow : 2px 2px 0px rgba(255,255,255,1);
+
+    }
+
+#day-number {
+    font-size: 80px;
+    margin: 10px 0;
+
+
+}
+
+#month {
+    font-size: 30px;
+    text-transform: uppercase;
+}
